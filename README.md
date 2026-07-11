@@ -1,2 +1,2 @@
 # js
-JavaScript practice repositoryjj
+JavaScript practice repository
