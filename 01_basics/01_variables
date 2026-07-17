@@ -10,7 +10,7 @@ accountEmail = "bhakti@email.com"
 accountPassword = "123"
 accountCity = "Raipur"
 
-console.log(accountId);
+console.log(accountId); // Prints the value of the specified variable.
 
 /*
 Avoid using var because:
@@ -19,7 +19,7 @@ Avoid using var because:
 3. Prefer let and const in modern JavaScript.
 */
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]); // Displays multiple values in a table format.
 
 /*
 Summary:
