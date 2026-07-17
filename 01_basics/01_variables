@@ -1,0 +1,30 @@
+const accountId = 144553 // const is used to declare a constant variable, Its value cannot be reassigned
+let accountEmail = "bhakti@gmail.com" // let is used to declare variables whose values can be changed later
+var accountPassword = "12345" // prefer not using var
+accountCity = "Pune" // JS allows creating a variable without let, const, or var (in non-strict mode), but this is considered bad practice.
+let accountState; // If a variable is declared but not initialized, its value is undefined
+
+//accountId = 2 // not allowed coz it is const
+
+accountEmail = "bhakti@email.com"
+accountPassword = "123"
+accountCity = "Raipur"
+
+console.log(accountId);
+
+/*
+Avoid using var because:
+1. It is function-scoped, not block-scoped.
+2. It can cause unexpected behavior due to hoisting.
+3. Prefer let and const in modern JavaScript.
+*/
+
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+
+/*
+Summary:
+- const = cannot be reassigned.
+- let = can be reassigned.
+- var = avoid using in modern JavaScript.
+- Uninitialized variables have the value undefined.
+*/
