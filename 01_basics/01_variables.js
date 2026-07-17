@@ -21,10 +21,3 @@ Avoid using var because:
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]); // Displays multiple values in a table format.
 
-/*
-Summary:
-- const = cannot be reassigned.
-- let = can be reassigned.
-- var = avoid using in modern JavaScript.
-- Uninitialized variables have the value undefined.
-*/

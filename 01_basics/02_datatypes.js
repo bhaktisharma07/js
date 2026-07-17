@@ -27,16 +27,3 @@ console.log(typeof "bhakti"); // typeof is used to check the data type of a valu
 console.log(typeof undefined); //undefined
 console.log(typeof null); // Output: "object" (This is a JavaScript bug)
 
-/*
-Summary:
-
-- Number stores numbers
-- BigInt stores very large numbers
-- String stores text
-- Boolean stores true or false
-- Null means empty value
-- Undefined means no value is assigned
-- Symbol creates unique values
-- Object stores a collection of data
-- typeof checks the data type
-*/
