@@ -37,11 +37,29 @@ console.log(typeof bigNumber); // bigint
 console.log(typeof anotherId); // symbol
 
 
-/*
-Summary:
-- Primitive types store a single value
-- Non-primitive types store collections or functions
-- typeof is used to check the data type
-- Every Symbol is unique, even if the values are the same
-*/
+
+
+
+// Stack ( Primitive ), Heap ( Non _ Primitive ) memoryl
+
+let myYoutubename = "bhaktisings"
+
+let anotherName = myYoutubename 
+anotherName = "sharmasisters"
+
+console.log(myYoutubename) ; 
+console.log(anotherName);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+// this goes into heap
+
+let userTwo = userOne
+
+userTwo.email = "bhakti@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
